@@ -1,0 +1,15 @@
+{
+	"ImportPath": "github.com/ctl80/kati",
+	"GoVersion": "go1.2.2",
+	"Deps": [
+		{
+			"ImportPath": "github.com/codegangsta/cli",
+			"Comment": "1.0.0-72-gbb91895",
+			"Rev": "bb9189510af1f49580c073c9e59e8bf288f0df27"
+		},
+		{
+			"ImportPath": "github.com/stretchr/testify/assert",
+			"Rev": "5484d2a8aceae50c87c77d5a7c7eaa14befcba51"
+		}
+	]
+}
