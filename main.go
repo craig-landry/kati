@@ -80,6 +80,7 @@ func runProxyServer(c *cli.Context) {
 func main() {
 	app := cli.NewApp()
 	app.Name = "kati"
+	app.Version = "1.0.0"
 	app.Usage = "Simple proxy server to send requests to different hosts based on path matched by a regex."
 	app.Action = runProxyServer
 	app.Flags = []cli.Flag{
